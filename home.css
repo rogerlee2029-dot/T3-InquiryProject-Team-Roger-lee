@@ -1,5 +1,17 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+.one{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.buttons{
+    display:flex;
+    Justify-content: space-between;
+    gap:10vw;
+}
+.best{
+    margin-top: 10vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
 }
