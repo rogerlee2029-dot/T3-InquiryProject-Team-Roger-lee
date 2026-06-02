@@ -3,3 +3,23 @@
     margin: 0;
     padding: 0;
 }
+.Navibar{
+    display:flex;
+    flex-direction:row;
+    jusitfy-content:space-between;
+    gap: 380px;
+    
+    
+}
+
+.hero {
+    
+    
+
+   
+}
+
+.block-style {
+    display:flex;
+    border: solid 5px red;
+}
