@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items:center;
+    gap:5vw;
 }
 .buttons{
     display:flex;
@@ -14,4 +15,30 @@
     flex-direction:column;
     justify-content:center;
     align-items:center;
+    font-size: xx-large;
+}
+.qwerty{
+    display:flex;
+    justify-content: center;
+}
+.popular{
+    display:flex;
+    justify-content: center;
+    font-size: xx-large;
+}
+.review{
+    display:flex;
+    flex-direction:row;
+}
+.abcd{
+display:flex;
+justify-content: space-between;
+gap:20vw;
+flex-direction:row;
+font-size:x-large;
+}
+.columnfour{
+    display:flex;
+    justify-content: flex-end;
+    align-items: end;
 }
