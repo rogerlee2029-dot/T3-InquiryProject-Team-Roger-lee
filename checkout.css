@@ -3,3 +3,43 @@
     margin: 0;
     padding: 0;
 }
+body{
+    display:flex;
+    flex-direction:column;
+
+}
+.side-bar{
+    display:flex;
+    flex-direction:column;
+    flex:1;
+    background:rgb(219, 169, 169);
+    padding:20px;
+    border:50vw;
+    width:10vw;
+}
+heading{
+    background-color:rgb(219, 169, 169);
+    width:100vw;
+    height:8vh;
+    display:flex;
+    flex-direction:row;
+    
+
+}
+.checkout{
+    display:flex;
+    flex:5;
+    flex-direction:column;
+    width:80vw;
+    background:rgb(219, 169, 169);
+    
+
+
+}
+.section{
+    width:100vw;
+    height:80vh;
+    display:flex;
+    flex-direction: row;
+
+}
