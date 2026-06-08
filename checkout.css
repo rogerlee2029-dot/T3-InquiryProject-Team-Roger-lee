@@ -12,26 +12,40 @@ body{
     display:flex;
     flex-direction:column;
     flex:1;
-    background:rgb(219, 169, 169);
-    padding:20px;
+    background:white;
+    padding:4vw;
     border:50vw;
     width:10vw;
+    border-radius:2vw;
+    box-shadow:1vw 1vh 1vw  gray;
+    border:orange, solid, 2px;
 }
 heading{
-    background-color:rgb(219, 169, 169);
+    background-color:rgb(255, 245, 227);
     width:100vw;
     height:8vh;
     display:flex;
     flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+
+
     
 
 }
 .checkout{
-    display:flex;
+    display:fle;
     flex:5;
     flex-direction:column;
     width:80vw;
-    background:rgb(219, 169, 169);
+    background:rgb(255, 217, 148);
+    padding:5vh;
+    border-radius:2vw;
+    border:2px solid orange;
+    box-shadow:1vw 1vh 1vw  gray;  
+
+
+
     
 
 
@@ -41,5 +55,15 @@ heading{
     height:80vh;
     display:flex;
     flex-direction: row;
+    background:rgb(255, 255, 255);
 
+}
+.pages{
+    display:flex;
+    justify-content:space-between;
+
+}
+.Pay{
+    height:10vh;
+    width:30vw;
 }
